@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B323C6462C5476A300E21F23 /* InputBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323C6452C5476A300E21F23 /* InputBlocker.swift */; };
+		B3FCA3302C1CFF37001AA0DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FCA32F2C1CFF37001AA0DE /* AppDelegate.swift */; };
+		B3FCA3322C1CFF37001AA0DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FCA3312C1CFF37001AA0DE /* ViewController.swift */; };
+		B3FCA3342C1CFF38001AA0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FCA3332C1CFF38001AA0DE /* Assets.xcassets */; };
+		B3FCA3372C1CFF38001AA0DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FCA3352C1CFF38001AA0DE /* Main.storyboard */; };
+		B3FCA3422C1CFF39001AA0DE /* KeyboardMouseBlockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FCA3412C1CFF39001AA0DE /* KeyboardMouseBlockerTests.swift */; };
+		B3FCA34C2C1CFF39001AA0DE /* KeyboardMouseBlockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FCA34B2C1CFF39001AA0DE /* KeyboardMouseBlockerUITests.swift */; };
+		B3FCA34E2C1CFF39001AA0DE /* KeyboardMouseBlockerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FCA34D2C1CFF39001AA0DE /* KeyboardMouseBlockerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3FCA33E2C1CFF39001AA0DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3FCA3242C1CFF37001AA0DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FCA32B2C1CFF37001AA0DE;
+			remoteInfo = KeyboardMouseBlocker;
+		};
+		B3FCA3482C1CFF39001AA0DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3FCA3242C1CFF37001AA0DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FCA32B2C1CFF37001AA0DE;
+			remoteInfo = KeyboardMouseBlocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B323C6452C5476A300E21F23 /* InputBlocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBlocker.swift; sourceTree = "<group>"; };
+		B3FCA32C2C1CFF37001AA0DE /* KeyboardMouseBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardMouseBlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FCA32F2C1CFF37001AA0DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3FCA3312C1CFF37001AA0DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3FCA3332C1CFF38001AA0DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3FCA3362C1CFF38001AA0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3FCA3382C1CFF38001AA0DE /* KeyboardMouseBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyboardMouseBlocker.entitlements; sourceTree = "<group>"; };
+		B3FCA33D2C1CFF39001AA0DE /* KeyboardMouseBlockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardMouseBlockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FCA3412C1CFF39001AA0DE /* KeyboardMouseBlockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardMouseBlockerTests.swift; sourceTree = "<group>"; };
+		B3FCA3472C1CFF39001AA0DE /* KeyboardMouseBlockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardMouseBlockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FCA34B2C1CFF39001AA0DE /* KeyboardMouseBlockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardMouseBlockerUITests.swift; sourceTree = "<group>"; };
+		B3FCA34D2C1CFF39001AA0DE /* KeyboardMouseBlockerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardMouseBlockerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3FCA3292C1CFF37001AA0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FCA33A2C1CFF39001AA0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FCA3442C1CFF39001AA0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3FCA3232C1CFF37001AA0DE = {
+			isa = PBXGroup;
+			children = (
+				B3FCA32E2C1CFF37001AA0DE /* KeyboardMouseBlocker */,
+				B3FCA3402C1CFF39001AA0DE /* KeyboardMouseBlockerTests */,
+				B3FCA34A2C1CFF39001AA0DE /* KeyboardMouseBlockerUITests */,
+				B3FCA32D2C1CFF37001AA0DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3FCA32D2C1CFF37001AA0DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3FCA32C2C1CFF37001AA0DE /* KeyboardMouseBlocker.app */,
+				B3FCA33D2C1CFF39001AA0DE /* KeyboardMouseBlockerTests.xctest */,
+				B3FCA3472C1CFF39001AA0DE /* KeyboardMouseBlockerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3FCA32E2C1CFF37001AA0DE /* KeyboardMouseBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				B3FCA32F2C1CFF37001AA0DE /* AppDelegate.swift */,
+				B3FCA3312C1CFF37001AA0DE /* ViewController.swift */,
+				B3FCA3332C1CFF38001AA0DE /* Assets.xcassets */,
+				B3FCA3352C1CFF38001AA0DE /* Main.storyboard */,
+				B3FCA3382C1CFF38001AA0DE /* KeyboardMouseBlocker.entitlements */,
+				B323C6452C5476A300E21F23 /* InputBlocker.swift */,
+			);
+			path = KeyboardMouseBlocker;
+			sourceTree = "<group>";
+		};
+		B3FCA3402C1CFF39001AA0DE /* KeyboardMouseBlockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3FCA3412C1CFF39001AA0DE /* KeyboardMouseBlockerTests.swift */,
+			);
+			path = KeyboardMouseBlockerTests;
+			sourceTree = "<group>";
+		};
+		B3FCA34A2C1CFF39001AA0DE /* KeyboardMouseBlockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3FCA34B2C1CFF39001AA0DE /* KeyboardMouseBlockerUITests.swift */,
+				B3FCA34D2C1CFF39001AA0DE /* KeyboardMouseBlockerUITestsLaunchTests.swift */,
+			);
+			path = KeyboardMouseBlockerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3FCA32B2C1CFF37001AA0DE /* KeyboardMouseBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FCA3512C1CFF39001AA0DE /* Build configuration list for PBXNativeTarget "KeyboardMouseBlocker" */;
+			buildPhases = (
+				B3FCA3282C1CFF37001AA0DE /* Sources */,
+				B3FCA3292C1CFF37001AA0DE /* Frameworks */,
+				B3FCA32A2C1CFF37001AA0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardMouseBlocker;
+			productName = KeyboardMouseBlocker;
+			productReference = B3FCA32C2C1CFF37001AA0DE /* KeyboardMouseBlocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3FCA33C2C1CFF39001AA0DE /* KeyboardMouseBlockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FCA3542C1CFF39001AA0DE /* Build configuration list for PBXNativeTarget "KeyboardMouseBlockerTests" */;
+			buildPhases = (
+				B3FCA3392C1CFF39001AA0DE /* Sources */,
+				B3FCA33A2C1CFF39001AA0DE /* Frameworks */,
+				B3FCA33B2C1CFF39001AA0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3FCA33F2C1CFF39001AA0DE /* PBXTargetDependency */,
+			);
+			name = KeyboardMouseBlockerTests;
+			productName = KeyboardMouseBlockerTests;
+			productReference = B3FCA33D2C1CFF39001AA0DE /* KeyboardMouseBlockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3FCA3462C1CFF39001AA0DE /* KeyboardMouseBlockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FCA3572C1CFF39001AA0DE /* Build configuration list for PBXNativeTarget "KeyboardMouseBlockerUITests" */;
+			buildPhases = (
+				B3FCA3432C1CFF39001AA0DE /* Sources */,
+				B3FCA3442C1CFF39001AA0DE /* Frameworks */,
+				B3FCA3452C1CFF39001AA0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3FCA3492C1CFF39001AA0DE /* PBXTargetDependency */,
+			);
+			name = KeyboardMouseBlockerUITests;
+			productName = KeyboardMouseBlockerUITests;
+			productReference = B3FCA3472C1CFF39001AA0DE /* KeyboardMouseBlockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3FCA3242C1CFF37001AA0DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B3FCA32B2C1CFF37001AA0DE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B3FCA33C2C1CFF39001AA0DE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B3FCA32B2C1CFF37001AA0DE;
+					};
+					B3FCA3462C1CFF39001AA0DE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B3FCA32B2C1CFF37001AA0DE;
+					};
+				};
+			};
+			buildConfigurationList = B3FCA3272C1CFF37001AA0DE /* Build configuration list for PBXProject "KeyboardMouseBlocker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3FCA3232C1CFF37001AA0DE;
+			productRefGroup = B3FCA32D2C1CFF37001AA0DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3FCA32B2C1CFF37001AA0DE /* KeyboardMouseBlocker */,
+				B3FCA33C2C1CFF39001AA0DE /* KeyboardMouseBlockerTests */,
+				B3FCA3462C1CFF39001AA0DE /* KeyboardMouseBlockerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3FCA32A2C1CFF37001AA0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FCA3342C1CFF38001AA0DE /* Assets.xcassets in Resources */,
+				B3FCA3372C1CFF38001AA0DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FCA33B2C1CFF39001AA0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FCA3452C1CFF39001AA0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3FCA3282C1CFF37001AA0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FCA3322C1CFF37001AA0DE /* ViewController.swift in Sources */,
+				B3FCA3302C1CFF37001AA0DE /* AppDelegate.swift in Sources */,
+				B323C6462C5476A300E21F23 /* InputBlocker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FCA3392C1CFF39001AA0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FCA3422C1CFF39001AA0DE /* KeyboardMouseBlockerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FCA3432C1CFF39001AA0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FCA34E2C1CFF39001AA0DE /* KeyboardMouseBlockerUITestsLaunchTests.swift in Sources */,
+				B3FCA34C2C1CFF39001AA0DE /* KeyboardMouseBlockerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3FCA33F2C1CFF39001AA0DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3FCA32B2C1CFF37001AA0DE /* KeyboardMouseBlocker */;
+			targetProxy = B3FCA33E2C1CFF39001AA0DE /* PBXContainerItemProxy */;
+		};
+		B3FCA3492C1CFF39001AA0DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3FCA32B2C1CFF37001AA0DE /* KeyboardMouseBlocker */;
+			targetProxy = B3FCA3482C1CFF39001AA0DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3FCA3352C1CFF38001AA0DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FCA3362C1CFF38001AA0DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3FCA34F2C1CFF39001AA0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3FCA3502C1CFF39001AA0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B3FCA3522C1CFF39001AA0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeyboardMouseBlocker/KeyboardMouseBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56DS8B7PKV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillin.KeyboardMouseBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B3FCA3532C1CFF39001AA0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeyboardMouseBlocker/KeyboardMouseBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56DS8B7PKV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillin.KeyboardMouseBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B3FCA3552C1CFF39001AA0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56DS8B7PKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillin.KeyboardMouseBlockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardMouseBlocker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KeyboardMouseBlocker";
+			};
+			name = Debug;
+		};
+		B3FCA3562C1CFF39001AA0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56DS8B7PKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillin.KeyboardMouseBlockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardMouseBlocker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KeyboardMouseBlocker";
+			};
+			name = Release;
+		};
+		B3FCA3582C1CFF39001AA0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56DS8B7PKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillin.KeyboardMouseBlockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KeyboardMouseBlocker;
+			};
+			name = Debug;
+		};
+		B3FCA3592C1CFF39001AA0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56DS8B7PKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillin.KeyboardMouseBlockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KeyboardMouseBlocker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3FCA3272C1CFF37001AA0DE /* Build configuration list for PBXProject "KeyboardMouseBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FCA34F2C1CFF39001AA0DE /* Debug */,
+				B3FCA3502C1CFF39001AA0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FCA3512C1CFF39001AA0DE /* Build configuration list for PBXNativeTarget "KeyboardMouseBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FCA3522C1CFF39001AA0DE /* Debug */,
+				B3FCA3532C1CFF39001AA0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FCA3542C1CFF39001AA0DE /* Build configuration list for PBXNativeTarget "KeyboardMouseBlockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FCA3552C1CFF39001AA0DE /* Debug */,
+				B3FCA3562C1CFF39001AA0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FCA3572C1CFF39001AA0DE /* Build configuration list for PBXNativeTarget "KeyboardMouseBlockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FCA3582C1CFF39001AA0DE /* Debug */,
+				B3FCA3592C1CFF39001AA0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3FCA3242C1CFF37001AA0DE /* Project object */;
+}
